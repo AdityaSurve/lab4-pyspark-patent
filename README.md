@@ -4,7 +4,7 @@ In this lab, you're going to use PySpark's RDD and DataFrame interfaces to solve
 
 ## The Patent join problem explained
 
-The goal of the patent join problem is to find *self-state patent citations*. You're given two datasets, `cite75_99.txt.gz` and `apat63_99.txt.gz`. The `Makefile` contains rules to download those data files. **N.B.** Rember to not check in those file into your git repo!
+The goal of the patent join problem is to find *self-state patent citations*. You're given two datasets, `cite75_99.txt.gz` and `apat63_99.txt.gz`. The `Makefile` contains rules to download those data files. **N.B.** Remember to not check in those file into your git repo!
 
 PySpark can automatically process the gzip'd files -- you don't need to uncompress them. Code for reading the files are included in the two Jupyter notebooks.
 
